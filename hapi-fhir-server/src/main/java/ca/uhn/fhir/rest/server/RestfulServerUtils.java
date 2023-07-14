@@ -63,7 +63,7 @@ import org.hl7.fhir.instance.model.api.IPrimitiveType;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.io.Writer;

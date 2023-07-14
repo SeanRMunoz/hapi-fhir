@@ -9,7 +9,7 @@
 		<relativePath>../hapi-deployable-pom/pom.xml</relativePath>
 	</parent>
 
-	<artifactId>hapi-fhir-server</artifactId>
+	<artifactId>hapi-fhir-server-jakarta</artifactId>
 	<packaging>bundle</packaging>
 
 	<name>HAPI FHIR - Server Framework</name>
@@ -35,8 +35,8 @@
 
 		<!-- Server -->
 		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
+			<groupId>jakarta.servlet</groupId>
+			<artifactId>jakarta.servlet-api</artifactId>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
